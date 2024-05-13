@@ -1,0 +1,227 @@
+[
+    {
+        "model": "wallet_api.customer",
+        "pk": 1,
+        "fields": {
+            "first_name": "John",
+            "last_name": "Doe",
+            "balance": 100.00
+        }
+    },
+    {
+        "model": "wallet_api.customer",
+        "pk": 2,
+        "fields": {
+            "first_name": "Jane",
+            "last_name": "Smith",
+            "balance": 200.00
+        }
+    },
+    {
+        "model": "wallet_api.customer",
+        "pk": 3,
+        "fields": {
+            "first_name": "Alice",
+            "last_name": "Johnson",
+            "balance": 150.00
+        }
+    },
+    {
+        "model": "wallet_api.customer",
+        "pk": 4,
+        "fields": {
+            "first_name": "Bob",
+            "last_name": "Brown",
+            "balance": 300.00
+        }
+    },
+    {
+        "model": "wallet_api.customer",
+        "pk": 5,
+        "fields": {
+            "first_name": "Emily",
+            "last_name": "Davis",
+            "balance": 250.00
+        }
+    },
+    {
+        "model": "wallet_api.transaction",
+        "pk": 1,
+        "fields": {
+            "customer": 1,
+            "value": 50.00,
+            "latency": 600
+        }
+    },
+    {
+        "model": "wallet_api.transaction",
+        "pk": 2,
+        "fields": {
+            "customer": 2,
+            "value": 75.00,
+            "latency": 250
+        }
+    },
+    {
+        "model": "wallet_api.transaction",
+        "pk": 3,
+        "fields": {
+            "customer": 3,
+            "value": 100.00,
+            "latency": 800
+        }
+    },
+    {
+        "model": "wallet_api.transaction",
+        "pk": 4,
+        "fields": {
+            "customer": 4,
+            "value": 120.00,
+            "latency": 1000
+        }
+    },
+    {
+        "model": "wallet_api.transaction",
+        "pk": 5,
+        "fields": {
+            "customer": 5,
+            "value": 200.00,
+            "latency": 500
+        }
+    },
+    {
+        "model": "wallet_api.transaction",
+        "pk": 6,
+        "fields": {
+            "customer": 1,
+            "value": 80.00,
+            "latency": 700
+        }
+    },
+    {
+        "model": "wallet_api.transaction",
+        "pk": 7,
+        "fields": {
+            "customer": 2,
+            "value": 60.00,
+            "latency": 350
+        }
+    },
+    {
+        "model": "wallet_api.transaction",
+        "pk": 8,
+        "fields": {
+            "customer": 3,
+            "value": 150.00,
+            "latency": 900
+        }
+    },
+    {
+        "model": "wallet_api.transaction",
+        "pk": 9,
+        "fields": {
+            "customer": 4,
+            "value": 90.00,
+            "latency": 1100
+        }
+    },
+    {
+        "model": "wallet_api.transaction",
+        "pk": 10,
+        "fields": {
+            "customer": 5,
+            "value": 180.00,
+            "latency": 600
+        }
+    },
+    {
+        "model": "wallet_api.transaction",
+        "pk": 11,
+        "fields": {
+            "customer": 1,
+            "value": 70.00,
+            "latency": 450
+        }
+    },
+    {
+        "model": "wallet_api.transaction",
+        "pk": 12,
+        "fields": {
+            "customer": 2,
+            "value": 100.00,
+            "latency": 800
+        }
+    },
+    {
+        "model": "wallet_api.transaction",
+        "pk": 13,
+        "fields": {
+            "customer": 3,
+            "value": 120.00,
+            "latency": 950
+        }
+    },
+    {
+        "model": "wallet_api.transaction",
+        "pk": 14,
+        "fields": {
+            "customer": 4,
+            "value": 80.00,
+            "latency": 700
+        }
+    },
+    {
+        "model": "wallet_api.transaction",
+        "pk": 15,
+        "fields": {
+            "customer": 5,
+            "value": 60.00,
+            "latency": 400
+        }
+    },
+    {
+        "model": "wallet_api.transaction",
+        "pk": 16,
+        "fields": {
+            "customer": 1,
+            "value": 110.00,
+            "latency": 850
+        }
+    },
+    {
+        "model": "wallet_api.transaction",
+        "pk": 17,
+        "fields": {
+            "customer": 2,
+            "value": 95.00,
+            "latency": 300
+        }
+    },
+    {
+        "model": "wallet_api.transaction",
+        "pk": 18,
+        "fields": {
+            "customer": 3,
+            "value": 70.00,
+            "latency": 700
+        }
+    },
+    {
+        "model": "wallet_api.transaction",
+        "pk": 19,
+        "fields": {
+            "customer": 4,
+            "value": 85.00,
+            "latency": 950
+        }
+    },
+    {
+        "model": "wallet_api.transaction",
+        "pk": 20,
+        "fields": {
+            "customer": 5,
+            "value": 200.00,
+            "latency": 850
+        }
+    }
+]
